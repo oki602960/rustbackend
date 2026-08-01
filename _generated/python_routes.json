@@ -1,0 +1,2835 @@
+[
+  {
+    "file": "open-webui/backend/open_webui/routers/analytics.py",
+    "handler": "get_model_analytics",
+    "decorator": "get",
+    "path": "/models",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/analytics.py",
+    "handler": "get_user_analytics",
+    "decorator": "get",
+    "path": "/users",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/analytics.py",
+    "handler": "get_messages",
+    "decorator": "get",
+    "path": "/messages",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/analytics.py",
+    "handler": "get_summary",
+    "decorator": "get",
+    "path": "/summary",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/analytics.py",
+    "handler": "get_daily_stats",
+    "decorator": "get",
+    "path": "/daily",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/analytics.py",
+    "handler": "get_token_usage",
+    "decorator": "get",
+    "path": "/tokens",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/analytics.py",
+    "handler": "get_model_chats",
+    "decorator": "get",
+    "path": "/models/{model_id:path}/chats",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/analytics.py",
+    "handler": "get_model_overview",
+    "decorator": "get",
+    "path": "/models/{model_id:path}/overview",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/audio.py",
+    "handler": "get_audio_config",
+    "decorator": "get",
+    "path": "/config",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/audio.py",
+    "handler": "update_audio_config",
+    "decorator": "post",
+    "path": "/config/update",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/audio.py",
+    "handler": "speech",
+    "decorator": "post",
+    "path": "/speech",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/audio.py",
+    "handler": "transcription",
+    "decorator": "post",
+    "path": "/transcriptions",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/audio.py",
+    "handler": "get_models",
+    "decorator": "get",
+    "path": "/models",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/audio.py",
+    "handler": "get_voices",
+    "decorator": "get",
+    "path": "/voices",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/auths.py",
+    "handler": "get_session_user",
+    "decorator": "get",
+    "path": "/",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/auths.py",
+    "handler": "update_profile",
+    "decorator": "post",
+    "path": "/update/profile",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/auths.py",
+    "handler": "update_timezone",
+    "decorator": "post",
+    "path": "/update/timezone",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/auths.py",
+    "handler": "update_password",
+    "decorator": "post",
+    "path": "/update/password",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/auths.py",
+    "handler": "ldap_auth",
+    "decorator": "post",
+    "path": "/ldap",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/auths.py",
+    "handler": "signin",
+    "decorator": "post",
+    "path": "/signin",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/auths.py",
+    "handler": "signup",
+    "decorator": "post",
+    "path": "/signup",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/auths.py",
+    "handler": "signout",
+    "decorator": "get",
+    "path": "/signout",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/auths.py",
+    "handler": "add_user",
+    "decorator": "post",
+    "path": "/add",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/auths.py",
+    "handler": "get_admin_details",
+    "decorator": "get",
+    "path": "/admin/details",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/auths.py",
+    "handler": "get_admin_config",
+    "decorator": "get",
+    "path": "/admin/config",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/auths.py",
+    "handler": "update_admin_config",
+    "decorator": "post",
+    "path": "/admin/config",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/auths.py",
+    "handler": "get_ldap_server",
+    "decorator": "get",
+    "path": "/admin/config/ldap/server",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/auths.py",
+    "handler": "update_ldap_server",
+    "decorator": "post",
+    "path": "/admin/config/ldap/server",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/auths.py",
+    "handler": "get_ldap_config",
+    "decorator": "get",
+    "path": "/admin/config/ldap",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/auths.py",
+    "handler": "update_ldap_config",
+    "decorator": "post",
+    "path": "/admin/config/ldap",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/auths.py",
+    "handler": "generate_api_key",
+    "decorator": "post",
+    "path": "/api_key",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/auths.py",
+    "handler": "delete_api_key",
+    "decorator": "delete",
+    "path": "/api_key",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/auths.py",
+    "handler": "get_api_key",
+    "decorator": "get",
+    "path": "/api_key",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/auths.py",
+    "handler": "token_exchange",
+    "decorator": "post",
+    "path": "/oauth/{provider}/token/exchange",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/channels.py",
+    "handler": "get_channels",
+    "decorator": "get",
+    "path": "/",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/channels.py",
+    "handler": "get_all_channels",
+    "decorator": "get",
+    "path": "/list",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/channels.py",
+    "handler": "get_dm_channel_by_user_id",
+    "decorator": "get",
+    "path": "/users/{user_id}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/channels.py",
+    "handler": "create_new_channel",
+    "decorator": "post",
+    "path": "/create",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/channels.py",
+    "handler": "get_channel_by_id",
+    "decorator": "get",
+    "path": "/{id}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/channels.py",
+    "handler": "get_channel_members_by_id",
+    "decorator": "get",
+    "path": "/{id}/members",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/channels.py",
+    "handler": "update_is_active_member_by_id_and_user_id",
+    "decorator": "post",
+    "path": "/{id}/members/active",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/channels.py",
+    "handler": "add_members_by_id",
+    "decorator": "post",
+    "path": "/{id}/update/members/add",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/channels.py",
+    "handler": "remove_members_by_id",
+    "decorator": "post",
+    "path": "/{id}/update/members/remove",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/channels.py",
+    "handler": "update_channel_by_id",
+    "decorator": "post",
+    "path": "/{id}/update",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/channels.py",
+    "handler": "delete_channel_by_id",
+    "decorator": "delete",
+    "path": "/{id}/delete",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/channels.py",
+    "handler": "get_channel_messages",
+    "decorator": "get",
+    "path": "/{id}/messages",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/channels.py",
+    "handler": "get_pinned_channel_messages",
+    "decorator": "get",
+    "path": "/{id}/messages/pinned",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/channels.py",
+    "handler": "post_new_message",
+    "decorator": "post",
+    "path": "/{id}/messages/post",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/channels.py",
+    "handler": "get_channel_message",
+    "decorator": "get",
+    "path": "/{id}/messages/{message_id}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/channels.py",
+    "handler": "get_channel_message_data",
+    "decorator": "get",
+    "path": "/{id}/messages/{message_id}/data",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/channels.py",
+    "handler": "pin_channel_message",
+    "decorator": "post",
+    "path": "/{id}/messages/{message_id}/pin",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/channels.py",
+    "handler": "get_channel_thread_messages",
+    "decorator": "get",
+    "path": "/{id}/messages/{message_id}/thread",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/channels.py",
+    "handler": "update_message_by_id",
+    "decorator": "post",
+    "path": "/{id}/messages/{message_id}/update",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/channels.py",
+    "handler": "add_reaction_to_message",
+    "decorator": "post",
+    "path": "/{id}/messages/{message_id}/reactions/add",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/channels.py",
+    "handler": "remove_reaction_by_id_and_user_id_and_name",
+    "decorator": "post",
+    "path": "/{id}/messages/{message_id}/reactions/remove",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/channels.py",
+    "handler": "delete_message_by_id",
+    "decorator": "delete",
+    "path": "/{id}/messages/{message_id}/delete",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/channels.py",
+    "handler": "get_webhook_profile_image",
+    "decorator": "get",
+    "path": "/webhooks/{webhook_id}/profile/image",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/channels.py",
+    "handler": "get_channel_webhooks",
+    "decorator": "get",
+    "path": "/{id}/webhooks",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/channels.py",
+    "handler": "create_channel_webhook",
+    "decorator": "post",
+    "path": "/{id}/webhooks/create",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/channels.py",
+    "handler": "update_channel_webhook",
+    "decorator": "post",
+    "path": "/{id}/webhooks/{webhook_id}/update",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/channels.py",
+    "handler": "delete_channel_webhook",
+    "decorator": "delete",
+    "path": "/{id}/webhooks/{webhook_id}/delete",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/channels.py",
+    "handler": "post_webhook_message",
+    "decorator": "post",
+    "path": "/webhooks/{webhook_id}/{token}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/chats.py",
+    "handler": "get_session_user_chat_list",
+    "decorator": "get",
+    "path": "/",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/chats.py",
+    "handler": "get_session_user_chat_list",
+    "decorator": "get",
+    "path": "/list",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/chats.py",
+    "handler": "get_session_user_chat_usage_stats",
+    "decorator": "get",
+    "path": "/stats/usage",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/chats.py",
+    "handler": "export_chat_stats",
+    "decorator": "get",
+    "path": "/stats/export",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/chats.py",
+    "handler": "export_single_chat_stats",
+    "decorator": "get",
+    "path": "/stats/export/{chat_id}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/chats.py",
+    "handler": "delete_all_user_chats",
+    "decorator": "delete",
+    "path": "/",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/chats.py",
+    "handler": "get_user_chat_list_by_user_id",
+    "decorator": "get",
+    "path": "/list/user/{user_id}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/chats.py",
+    "handler": "create_new_chat",
+    "decorator": "post",
+    "path": "/new",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/chats.py",
+    "handler": "import_chats",
+    "decorator": "post",
+    "path": "/import",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/chats.py",
+    "handler": "search_user_chats",
+    "decorator": "get",
+    "path": "/search",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/chats.py",
+    "handler": "get_chats_by_folder_id",
+    "decorator": "get",
+    "path": "/folder/{folder_id}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/chats.py",
+    "handler": "get_chat_list_by_folder_id",
+    "decorator": "get",
+    "path": "/folder/{folder_id}/list",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/chats.py",
+    "handler": "get_user_pinned_chats",
+    "decorator": "get",
+    "path": "/pinned",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/chats.py",
+    "handler": "get_user_chats",
+    "decorator": "get",
+    "path": "/all",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/chats.py",
+    "handler": "get_user_archived_chats",
+    "decorator": "get",
+    "path": "/all/archived",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/chats.py",
+    "handler": "get_all_user_tags",
+    "decorator": "get",
+    "path": "/all/tags",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/chats.py",
+    "handler": "get_all_user_chats_in_db",
+    "decorator": "get",
+    "path": "/all/db",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/chats.py",
+    "handler": "get_archived_session_user_chat_list",
+    "decorator": "get",
+    "path": "/archived",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/chats.py",
+    "handler": "archive_all_chats",
+    "decorator": "post",
+    "path": "/archive/all",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/chats.py",
+    "handler": "unarchive_all_chats",
+    "decorator": "post",
+    "path": "/unarchive/all",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/chats.py",
+    "handler": "get_shared_session_user_chat_list",
+    "decorator": "get",
+    "path": "/shared",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/chats.py",
+    "handler": "get_shared_chat_by_id",
+    "decorator": "get",
+    "path": "/share/{share_id}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/chats.py",
+    "handler": "get_user_chat_list_by_tag_name",
+    "decorator": "post",
+    "path": "/tags",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/chats.py",
+    "handler": "get_chat_by_id",
+    "decorator": "get",
+    "path": "/{id}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/chats.py",
+    "handler": "update_chat_by_id",
+    "decorator": "post",
+    "path": "/{id}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/chats.py",
+    "handler": "update_chat_message_by_id",
+    "decorator": "post",
+    "path": "/{id}/messages/{message_id}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/chats.py",
+    "handler": "send_chat_message_event_by_id",
+    "decorator": "post",
+    "path": "/{id}/messages/{message_id}/event",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/chats.py",
+    "handler": "delete_chat_by_id",
+    "decorator": "delete",
+    "path": "/{id}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/chats.py",
+    "handler": "get_pinned_status_by_id",
+    "decorator": "get",
+    "path": "/{id}/pinned",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/chats.py",
+    "handler": "pin_chat_by_id",
+    "decorator": "post",
+    "path": "/{id}/pin",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/chats.py",
+    "handler": "clone_chat_by_id",
+    "decorator": "post",
+    "path": "/{id}/clone",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/chats.py",
+    "handler": "clone_shared_chat_by_id",
+    "decorator": "post",
+    "path": "/{id}/clone/shared",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/chats.py",
+    "handler": "archive_chat_by_id",
+    "decorator": "post",
+    "path": "/{id}/archive",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/chats.py",
+    "handler": "share_chat_by_id",
+    "decorator": "post",
+    "path": "/{id}/share",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/chats.py",
+    "handler": "delete_shared_chat_by_id",
+    "decorator": "delete",
+    "path": "/{id}/share",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/chats.py",
+    "handler": "update_chat_folder_id_by_id",
+    "decorator": "post",
+    "path": "/{id}/folder",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/chats.py",
+    "handler": "get_chat_tags_by_id",
+    "decorator": "get",
+    "path": "/{id}/tags",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/chats.py",
+    "handler": "add_tag_by_id_and_tag_name",
+    "decorator": "post",
+    "path": "/{id}/tags",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/chats.py",
+    "handler": "delete_tag_by_id_and_tag_name",
+    "decorator": "delete",
+    "path": "/{id}/tags",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/chats.py",
+    "handler": "delete_all_tags_by_id",
+    "decorator": "delete",
+    "path": "/{id}/tags/all",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/configs.py",
+    "handler": "import_config",
+    "decorator": "post",
+    "path": "/import",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/configs.py",
+    "handler": "export_config",
+    "decorator": "get",
+    "path": "/export",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/configs.py",
+    "handler": "get_connections_config",
+    "decorator": "get",
+    "path": "/connections",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/configs.py",
+    "handler": "set_connections_config",
+    "decorator": "post",
+    "path": "/connections",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/configs.py",
+    "handler": "register_oauth_client",
+    "decorator": "post",
+    "path": "/oauth/clients/register",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/configs.py",
+    "handler": "get_tool_servers_config",
+    "decorator": "get",
+    "path": "/tool_servers",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/configs.py",
+    "handler": "set_tool_servers_config",
+    "decorator": "post",
+    "path": "/tool_servers",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/configs.py",
+    "handler": "get_terminal_servers_config",
+    "decorator": "get",
+    "path": "/terminal_servers",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/configs.py",
+    "handler": "set_terminal_servers_config",
+    "decorator": "post",
+    "path": "/terminal_servers",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/configs.py",
+    "handler": "verify_terminal_server_connection",
+    "decorator": "post",
+    "path": "/terminal_servers/verify",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/configs.py",
+    "handler": "put_terminal_server_policy",
+    "decorator": "post",
+    "path": "/terminal_servers/policy",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/configs.py",
+    "handler": "verify_tool_servers_config",
+    "decorator": "post",
+    "path": "/tool_servers/verify",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/configs.py",
+    "handler": "get_code_execution_config",
+    "decorator": "get",
+    "path": "/code_execution",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/configs.py",
+    "handler": "set_code_execution_config",
+    "decorator": "post",
+    "path": "/code_execution",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/configs.py",
+    "handler": "get_models_defaults",
+    "decorator": "get",
+    "path": "/models/defaults",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/configs.py",
+    "handler": "get_models_config",
+    "decorator": "get",
+    "path": "/models",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/configs.py",
+    "handler": "set_models_config",
+    "decorator": "post",
+    "path": "/models",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/configs.py",
+    "handler": "set_default_suggestions",
+    "decorator": "post",
+    "path": "/suggestions",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/configs.py",
+    "handler": "set_banners",
+    "decorator": "post",
+    "path": "/banners",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/configs.py",
+    "handler": "get_banners",
+    "decorator": "get",
+    "path": "/banners",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/evaluations.py",
+    "handler": "get_leaderboard",
+    "decorator": "get",
+    "path": "/leaderboard",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/evaluations.py",
+    "handler": "get_model_history",
+    "decorator": "get",
+    "path": "/leaderboard/{model_id}/history",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/evaluations.py",
+    "handler": "get_config",
+    "decorator": "get",
+    "path": "/config",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/evaluations.py",
+    "handler": "update_config",
+    "decorator": "post",
+    "path": "/config",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/evaluations.py",
+    "handler": "get_all_feedbacks",
+    "decorator": "get",
+    "path": "/feedbacks/all",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/evaluations.py",
+    "handler": "get_all_feedback_ids",
+    "decorator": "get",
+    "path": "/feedbacks/all/ids",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/evaluations.py",
+    "handler": "delete_all_feedbacks",
+    "decorator": "delete",
+    "path": "/feedbacks/all",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/evaluations.py",
+    "handler": "export_all_feedbacks",
+    "decorator": "get",
+    "path": "/feedbacks/all/export",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/evaluations.py",
+    "handler": "get_feedbacks",
+    "decorator": "get",
+    "path": "/feedbacks/user",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/evaluations.py",
+    "handler": "delete_feedbacks",
+    "decorator": "delete",
+    "path": "/feedbacks",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/evaluations.py",
+    "handler": "get_feedbacks",
+    "decorator": "get",
+    "path": "/feedbacks/list",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/evaluations.py",
+    "handler": "create_feedback",
+    "decorator": "post",
+    "path": "/feedback",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/evaluations.py",
+    "handler": "get_feedback_by_id",
+    "decorator": "get",
+    "path": "/feedback/{id}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/evaluations.py",
+    "handler": "update_feedback_by_id",
+    "decorator": "post",
+    "path": "/feedback/{id}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/evaluations.py",
+    "handler": "delete_feedback_by_id",
+    "decorator": "delete",
+    "path": "/feedback/{id}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/files.py",
+    "handler": "upload_file",
+    "decorator": "post",
+    "path": "/",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/files.py",
+    "handler": "list_files",
+    "decorator": "get",
+    "path": "/",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/files.py",
+    "handler": "search_files",
+    "decorator": "get",
+    "path": "/search",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/files.py",
+    "handler": "delete_all_files",
+    "decorator": "delete",
+    "path": "/all",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/files.py",
+    "handler": "get_file_by_id",
+    "decorator": "get",
+    "path": "/{id}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/files.py",
+    "handler": "get_file_process_status",
+    "decorator": "get",
+    "path": "/{id}/process/status",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/files.py",
+    "handler": "get_file_data_content_by_id",
+    "decorator": "get",
+    "path": "/{id}/data/content",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/files.py",
+    "handler": "update_file_data_content_by_id",
+    "decorator": "post",
+    "path": "/{id}/data/content/update",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/files.py",
+    "handler": "get_file_content_by_id",
+    "decorator": "get",
+    "path": "/{id}/content",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/files.py",
+    "handler": "get_html_file_content_by_id",
+    "decorator": "get",
+    "path": "/{id}/content/html",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/files.py",
+    "handler": "get_file_content_by_id",
+    "decorator": "get",
+    "path": "/{id}/content/{file_name}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/files.py",
+    "handler": "delete_file_by_id",
+    "decorator": "delete",
+    "path": "/{id}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/folders.py",
+    "handler": "get_folders",
+    "decorator": "get",
+    "path": "/",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/folders.py",
+    "handler": "create_folder",
+    "decorator": "post",
+    "path": "/",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/folders.py",
+    "handler": "get_folder_by_id",
+    "decorator": "get",
+    "path": "/{id}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/folders.py",
+    "handler": "update_folder_name_by_id",
+    "decorator": "post",
+    "path": "/{id}/update",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/folders.py",
+    "handler": "update_folder_parent_id_by_id",
+    "decorator": "post",
+    "path": "/{id}/update/parent",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/folders.py",
+    "handler": "update_folder_is_expanded_by_id",
+    "decorator": "post",
+    "path": "/{id}/update/expanded",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/folders.py",
+    "handler": "delete_folder_by_id",
+    "decorator": "delete",
+    "path": "/{id}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/functions.py",
+    "handler": "get_functions",
+    "decorator": "get",
+    "path": "/",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/functions.py",
+    "handler": "get_function_list",
+    "decorator": "get",
+    "path": "/list",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/functions.py",
+    "handler": "get_functions",
+    "decorator": "get",
+    "path": "/export",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/functions.py",
+    "handler": "load_function_from_url",
+    "decorator": "post",
+    "path": "/load/url",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/functions.py",
+    "handler": "sync_functions",
+    "decorator": "post",
+    "path": "/sync",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/functions.py",
+    "handler": "create_new_function",
+    "decorator": "post",
+    "path": "/create",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/functions.py",
+    "handler": "get_function_by_id",
+    "decorator": "get",
+    "path": "/id/{id}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/functions.py",
+    "handler": "toggle_function_by_id",
+    "decorator": "post",
+    "path": "/id/{id}/toggle",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/functions.py",
+    "handler": "toggle_global_by_id",
+    "decorator": "post",
+    "path": "/id/{id}/toggle/global",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/functions.py",
+    "handler": "update_function_by_id",
+    "decorator": "post",
+    "path": "/id/{id}/update",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/functions.py",
+    "handler": "delete_function_by_id",
+    "decorator": "delete",
+    "path": "/id/{id}/delete",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/functions.py",
+    "handler": "get_function_valves_by_id",
+    "decorator": "get",
+    "path": "/id/{id}/valves",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/functions.py",
+    "handler": "get_function_valves_spec_by_id",
+    "decorator": "get",
+    "path": "/id/{id}/valves/spec",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/functions.py",
+    "handler": "update_function_valves_by_id",
+    "decorator": "post",
+    "path": "/id/{id}/valves/update",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/functions.py",
+    "handler": "get_function_user_valves_by_id",
+    "decorator": "get",
+    "path": "/id/{id}/valves/user",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/functions.py",
+    "handler": "get_function_user_valves_spec_by_id",
+    "decorator": "get",
+    "path": "/id/{id}/valves/user/spec",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/functions.py",
+    "handler": "update_function_user_valves_by_id",
+    "decorator": "post",
+    "path": "/id/{id}/valves/user/update",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/groups.py",
+    "handler": "get_groups",
+    "decorator": "get",
+    "path": "/",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/groups.py",
+    "handler": "create_new_group",
+    "decorator": "post",
+    "path": "/create",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/groups.py",
+    "handler": "get_group_by_id",
+    "decorator": "get",
+    "path": "/id/{id}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/groups.py",
+    "handler": "get_group_info_by_id",
+    "decorator": "get",
+    "path": "/id/{id}/info",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/groups.py",
+    "handler": "export_group_by_id",
+    "decorator": "get",
+    "path": "/id/{id}/export",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/groups.py",
+    "handler": "get_users_in_group",
+    "decorator": "post",
+    "path": "/id/{id}/users",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/groups.py",
+    "handler": "update_group_by_id",
+    "decorator": "post",
+    "path": "/id/{id}/update",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/groups.py",
+    "handler": "add_user_to_group",
+    "decorator": "post",
+    "path": "/id/{id}/users/add",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/groups.py",
+    "handler": "remove_users_from_group",
+    "decorator": "post",
+    "path": "/id/{id}/users/remove",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/groups.py",
+    "handler": "delete_group_by_id",
+    "decorator": "delete",
+    "path": "/id/{id}/delete",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/images.py",
+    "handler": "get_config",
+    "decorator": "get",
+    "path": "/config",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/images.py",
+    "handler": "update_config",
+    "decorator": "post",
+    "path": "/config/update",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/images.py",
+    "handler": "verify_url",
+    "decorator": "get",
+    "path": "/config/url/verify",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/images.py",
+    "handler": "get_models",
+    "decorator": "get",
+    "path": "/models",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/images.py",
+    "handler": "generate_images",
+    "decorator": "post",
+    "path": "/generations",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/images.py",
+    "handler": "image_edits",
+    "decorator": "post",
+    "path": "/edit",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/knowledge.py",
+    "handler": "get_knowledge_bases",
+    "decorator": "get",
+    "path": "/",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/knowledge.py",
+    "handler": "search_knowledge_bases",
+    "decorator": "get",
+    "path": "/search",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/knowledge.py",
+    "handler": "search_knowledge_files",
+    "decorator": "get",
+    "path": "/search/files",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/knowledge.py",
+    "handler": "create_new_knowledge",
+    "decorator": "post",
+    "path": "/create",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/knowledge.py",
+    "handler": "reindex_knowledge_files",
+    "decorator": "post",
+    "path": "/reindex",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/knowledge.py",
+    "handler": "reindex_knowledge_base_metadata_embeddings",
+    "decorator": "post",
+    "path": "/metadata/reindex",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/knowledge.py",
+    "handler": "get_knowledge_by_id",
+    "decorator": "get",
+    "path": "/{id}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/knowledge.py",
+    "handler": "update_knowledge_by_id",
+    "decorator": "post",
+    "path": "/{id}/update",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/knowledge.py",
+    "handler": "update_knowledge_access_by_id",
+    "decorator": "post",
+    "path": "/{id}/access/update",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/knowledge.py",
+    "handler": "get_knowledge_files_by_id",
+    "decorator": "get",
+    "path": "/{id}/files",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/knowledge.py",
+    "handler": "add_file_to_knowledge_by_id",
+    "decorator": "post",
+    "path": "/{id}/file/add",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/knowledge.py",
+    "handler": "update_file_from_knowledge_by_id",
+    "decorator": "post",
+    "path": "/{id}/file/update",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/knowledge.py",
+    "handler": "remove_file_from_knowledge_by_id",
+    "decorator": "post",
+    "path": "/{id}/file/remove",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/knowledge.py",
+    "handler": "delete_knowledge_by_id",
+    "decorator": "delete",
+    "path": "/{id}/delete",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/knowledge.py",
+    "handler": "reset_knowledge_by_id",
+    "decorator": "post",
+    "path": "/{id}/reset",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/knowledge.py",
+    "handler": "add_files_to_knowledge_batch",
+    "decorator": "post",
+    "path": "/{id}/files/batch/add",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/knowledge.py",
+    "handler": "export_knowledge_by_id",
+    "decorator": "get",
+    "path": "/{id}/export",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/memories.py",
+    "handler": "get_memories",
+    "decorator": "get",
+    "path": "/",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/memories.py",
+    "handler": "add_memory",
+    "decorator": "post",
+    "path": "/add",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/memories.py",
+    "handler": "query_memory",
+    "decorator": "post",
+    "path": "/query",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/memories.py",
+    "handler": "reset_memory_from_vector_db",
+    "decorator": "post",
+    "path": "/reset",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/memories.py",
+    "handler": "delete_memory_by_user_id",
+    "decorator": "delete",
+    "path": "/delete/user",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/memories.py",
+    "handler": "update_memory_by_id",
+    "decorator": "post",
+    "path": "/{memory_id}/update",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/memories.py",
+    "handler": "delete_memory_by_id",
+    "decorator": "delete",
+    "path": "/{memory_id}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/models.py",
+    "handler": "get_models",
+    "decorator": "get",
+    "path": "/list",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/models.py",
+    "handler": "get_base_models",
+    "decorator": "get",
+    "path": "/base",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/models.py",
+    "handler": "get_model_tags",
+    "decorator": "get",
+    "path": "/tags",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/models.py",
+    "handler": "create_new_model",
+    "decorator": "post",
+    "path": "/create",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/models.py",
+    "handler": "export_models",
+    "decorator": "get",
+    "path": "/export",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/models.py",
+    "handler": "import_models",
+    "decorator": "post",
+    "path": "/import",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/models.py",
+    "handler": "sync_models",
+    "decorator": "post",
+    "path": "/sync",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/models.py",
+    "handler": "get_model_by_id",
+    "decorator": "get",
+    "path": "/model",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/models.py",
+    "handler": "get_model_profile_image",
+    "decorator": "get",
+    "path": "/model/profile/image",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/models.py",
+    "handler": "toggle_model_by_id",
+    "decorator": "post",
+    "path": "/model/toggle",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/models.py",
+    "handler": "update_model_by_id",
+    "decorator": "post",
+    "path": "/model/update",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/models.py",
+    "handler": "update_model_access_by_id",
+    "decorator": "post",
+    "path": "/model/access/update",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/models.py",
+    "handler": "delete_model_by_id",
+    "decorator": "post",
+    "path": "/model/delete",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/models.py",
+    "handler": "delete_all_models",
+    "decorator": "delete",
+    "path": "/delete/all",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/notes.py",
+    "handler": "get_notes",
+    "decorator": "get",
+    "path": "/",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/notes.py",
+    "handler": "search_notes",
+    "decorator": "get",
+    "path": "/search",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/notes.py",
+    "handler": "create_new_note",
+    "decorator": "post",
+    "path": "/create",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/notes.py",
+    "handler": "get_note_by_id",
+    "decorator": "get",
+    "path": "/{id}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/notes.py",
+    "handler": "update_note_by_id",
+    "decorator": "post",
+    "path": "/{id}/update",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/notes.py",
+    "handler": "update_note_access_by_id",
+    "decorator": "post",
+    "path": "/{id}/access/update",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/notes.py",
+    "handler": "delete_note_by_id",
+    "decorator": "delete",
+    "path": "/{id}/delete",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "get_status",
+    "decorator": "head",
+    "path": "/",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "get_status",
+    "decorator": "get",
+    "path": "/",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "verify_connection",
+    "decorator": "post",
+    "path": "/verify",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "get_config",
+    "decorator": "get",
+    "path": "/config",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "update_config",
+    "decorator": "post",
+    "path": "/config/update",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "get_ollama_tags",
+    "decorator": "get",
+    "path": "/api/tags",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "get_ollama_tags",
+    "decorator": "get",
+    "path": "/api/tags/{url_idx}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "get_ollama_loaded_models",
+    "decorator": "get",
+    "path": "/api/ps",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "get_ollama_versions",
+    "decorator": "get",
+    "path": "/api/version",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "get_ollama_versions",
+    "decorator": "get",
+    "path": "/api/version/{url_idx}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "unload_model",
+    "decorator": "post",
+    "path": "/api/unload",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "pull_model",
+    "decorator": "post",
+    "path": "/api/pull",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "pull_model",
+    "decorator": "post",
+    "path": "/api/pull/{url_idx}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "push_model",
+    "decorator": "delete",
+    "path": "/api/push",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "push_model",
+    "decorator": "delete",
+    "path": "/api/push/{url_idx}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "create_model",
+    "decorator": "post",
+    "path": "/api/create",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "create_model",
+    "decorator": "post",
+    "path": "/api/create/{url_idx}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "copy_model",
+    "decorator": "post",
+    "path": "/api/copy",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "copy_model",
+    "decorator": "post",
+    "path": "/api/copy/{url_idx}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "delete_model",
+    "decorator": "delete",
+    "path": "/api/delete",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "delete_model",
+    "decorator": "delete",
+    "path": "/api/delete/{url_idx}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "show_model_info",
+    "decorator": "post",
+    "path": "/api/show",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "embed",
+    "decorator": "post",
+    "path": "/api/embed",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "embed",
+    "decorator": "post",
+    "path": "/api/embed/{url_idx}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "embeddings",
+    "decorator": "post",
+    "path": "/api/embeddings",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "embeddings",
+    "decorator": "post",
+    "path": "/api/embeddings/{url_idx}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "generate_completion",
+    "decorator": "post",
+    "path": "/api/generate",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "generate_completion",
+    "decorator": "post",
+    "path": "/api/generate/{url_idx}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "generate_chat_completion",
+    "decorator": "post",
+    "path": "/api/chat",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "generate_chat_completion",
+    "decorator": "post",
+    "path": "/api/chat/{url_idx}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "generate_openai_completion",
+    "decorator": "post",
+    "path": "/v1/completions",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "generate_openai_completion",
+    "decorator": "post",
+    "path": "/v1/completions/{url_idx}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "generate_openai_chat_completion",
+    "decorator": "post",
+    "path": "/v1/chat/completions",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "generate_openai_chat_completion",
+    "decorator": "post",
+    "path": "/v1/chat/completions/{url_idx}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "generate_anthropic_messages",
+    "decorator": "post",
+    "path": "/v1/messages",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "generate_anthropic_messages",
+    "decorator": "post",
+    "path": "/v1/messages/{url_idx}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "get_openai_models",
+    "decorator": "get",
+    "path": "/v1/models",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "get_openai_models",
+    "decorator": "get",
+    "path": "/v1/models/{url_idx}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "download_model",
+    "decorator": "post",
+    "path": "/models/download",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "download_model",
+    "decorator": "post",
+    "path": "/models/download/{url_idx}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "upload_model",
+    "decorator": "post",
+    "path": "/models/upload",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/ollama.py",
+    "handler": "upload_model",
+    "decorator": "post",
+    "path": "/models/upload/{url_idx}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/openai.py",
+    "handler": "get_config",
+    "decorator": "get",
+    "path": "/config",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/openai.py",
+    "handler": "update_config",
+    "decorator": "post",
+    "path": "/config/update",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/openai.py",
+    "handler": "speech",
+    "decorator": "post",
+    "path": "/audio/speech",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/openai.py",
+    "handler": "get_models",
+    "decorator": "get",
+    "path": "/models",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/openai.py",
+    "handler": "get_models",
+    "decorator": "get",
+    "path": "/models/{url_idx}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/openai.py",
+    "handler": "verify_connection",
+    "decorator": "post",
+    "path": "/verify",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/openai.py",
+    "handler": "generate_chat_completion",
+    "decorator": "post",
+    "path": "/chat/completions",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/openai.py",
+    "handler": "responses",
+    "decorator": "post",
+    "path": "/responses",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/openai.py",
+    "handler": "proxy",
+    "decorator": "api_route",
+    "path": "/{path:path}",
+    "methods": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/pipelines.py",
+    "handler": "get_pipelines_list",
+    "decorator": "get",
+    "path": "/list",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/pipelines.py",
+    "handler": "upload_pipeline",
+    "decorator": "post",
+    "path": "/upload",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/pipelines.py",
+    "handler": "add_pipeline",
+    "decorator": "post",
+    "path": "/add",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/pipelines.py",
+    "handler": "delete_pipeline",
+    "decorator": "delete",
+    "path": "/delete",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/pipelines.py",
+    "handler": "get_pipelines",
+    "decorator": "get",
+    "path": "/",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/pipelines.py",
+    "handler": "get_pipeline_valves",
+    "decorator": "get",
+    "path": "/{pipeline_id}/valves",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/pipelines.py",
+    "handler": "get_pipeline_valves_spec",
+    "decorator": "get",
+    "path": "/{pipeline_id}/valves/spec",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/pipelines.py",
+    "handler": "update_pipeline_valves",
+    "decorator": "post",
+    "path": "/{pipeline_id}/valves/update",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/prompts.py",
+    "handler": "get_prompts",
+    "decorator": "get",
+    "path": "/",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/prompts.py",
+    "handler": "get_prompt_tags",
+    "decorator": "get",
+    "path": "/tags",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/prompts.py",
+    "handler": "get_prompt_list",
+    "decorator": "get",
+    "path": "/list",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/prompts.py",
+    "handler": "create_new_prompt",
+    "decorator": "post",
+    "path": "/create",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/prompts.py",
+    "handler": "get_prompt_by_command",
+    "decorator": "get",
+    "path": "/command/{command}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/prompts.py",
+    "handler": "get_prompt_by_id",
+    "decorator": "get",
+    "path": "/id/{prompt_id}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/prompts.py",
+    "handler": "update_prompt_by_id",
+    "decorator": "post",
+    "path": "/id/{prompt_id}/update",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/prompts.py",
+    "handler": "update_prompt_metadata",
+    "decorator": "post",
+    "path": "/id/{prompt_id}/update/meta",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/prompts.py",
+    "handler": "set_prompt_version",
+    "decorator": "post",
+    "path": "/id/{prompt_id}/update/version",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/prompts.py",
+    "handler": "update_prompt_access_by_id",
+    "decorator": "post",
+    "path": "/id/{prompt_id}/access/update",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/prompts.py",
+    "handler": "toggle_prompt_active",
+    "decorator": "post",
+    "path": "/id/{prompt_id}/toggle",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/prompts.py",
+    "handler": "delete_prompt_by_id",
+    "decorator": "delete",
+    "path": "/id/{prompt_id}/delete",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/prompts.py",
+    "handler": "get_prompt_history",
+    "decorator": "get",
+    "path": "/id/{prompt_id}/history",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/prompts.py",
+    "handler": "get_prompt_history_entry",
+    "decorator": "get",
+    "path": "/id/{prompt_id}/history/{history_id}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/prompts.py",
+    "handler": "delete_prompt_history_entry",
+    "decorator": "delete",
+    "path": "/id/{prompt_id}/history/{history_id}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/prompts.py",
+    "handler": "get_prompt_diff",
+    "decorator": "get",
+    "path": "/id/{prompt_id}/history/diff",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/retrieval.py",
+    "handler": "get_status",
+    "decorator": "get",
+    "path": "/",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/retrieval.py",
+    "handler": "get_embedding_config",
+    "decorator": "get",
+    "path": "/embedding",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/retrieval.py",
+    "handler": "update_embedding_config",
+    "decorator": "post",
+    "path": "/embedding/update",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/retrieval.py",
+    "handler": "get_rag_config",
+    "decorator": "get",
+    "path": "/config",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/retrieval.py",
+    "handler": "update_rag_config",
+    "decorator": "post",
+    "path": "/config/update",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/retrieval.py",
+    "handler": "process_file",
+    "decorator": "post",
+    "path": "/process/file",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/retrieval.py",
+    "handler": "process_text",
+    "decorator": "post",
+    "path": "/process/text",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/retrieval.py",
+    "handler": "process_web",
+    "decorator": "post",
+    "path": "/process/youtube",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/retrieval.py",
+    "handler": "process_web",
+    "decorator": "post",
+    "path": "/process/web",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/retrieval.py",
+    "handler": "process_web_search",
+    "decorator": "post",
+    "path": "/process/web/search",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/retrieval.py",
+    "handler": "query_doc_handler",
+    "decorator": "post",
+    "path": "/query/doc",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/retrieval.py",
+    "handler": "query_collection_handler",
+    "decorator": "post",
+    "path": "/query/collection",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/retrieval.py",
+    "handler": "delete_entries_from_collection",
+    "decorator": "post",
+    "path": "/delete",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/retrieval.py",
+    "handler": "reset_vector_db",
+    "decorator": "post",
+    "path": "/reset/db",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/retrieval.py",
+    "handler": "reset_upload_dir",
+    "decorator": "post",
+    "path": "/reset/uploads",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/retrieval.py",
+    "handler": "process_files_batch",
+    "decorator": "post",
+    "path": "/process/files/batch",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/scim.py",
+    "handler": "get_service_provider_config",
+    "decorator": "get",
+    "path": "/ServiceProviderConfig",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/scim.py",
+    "handler": "get_resource_types",
+    "decorator": "get",
+    "path": "/ResourceTypes",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/scim.py",
+    "handler": "get_schemas",
+    "decorator": "get",
+    "path": "/Schemas",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/scim.py",
+    "handler": "get_users",
+    "decorator": "get",
+    "path": "/Users",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/scim.py",
+    "handler": "get_user",
+    "decorator": "get",
+    "path": "/Users/{user_id}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/scim.py",
+    "handler": "create_user",
+    "decorator": "post",
+    "path": "/Users",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/scim.py",
+    "handler": "update_user",
+    "decorator": "put",
+    "path": "/Users/{user_id}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/scim.py",
+    "handler": "patch_user",
+    "decorator": "patch",
+    "path": "/Users/{user_id}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/scim.py",
+    "handler": "delete_user",
+    "decorator": "delete",
+    "path": "/Users/{user_id}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/scim.py",
+    "handler": "get_groups",
+    "decorator": "get",
+    "path": "/Groups",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/scim.py",
+    "handler": "get_group",
+    "decorator": "get",
+    "path": "/Groups/{group_id}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/scim.py",
+    "handler": "create_group",
+    "decorator": "post",
+    "path": "/Groups",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/scim.py",
+    "handler": "update_group",
+    "decorator": "put",
+    "path": "/Groups/{group_id}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/scim.py",
+    "handler": "patch_group",
+    "decorator": "patch",
+    "path": "/Groups/{group_id}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/scim.py",
+    "handler": "delete_group",
+    "decorator": "delete",
+    "path": "/Groups/{group_id}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/skills.py",
+    "handler": "get_skills",
+    "decorator": "get",
+    "path": "/",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/skills.py",
+    "handler": "get_skill_list",
+    "decorator": "get",
+    "path": "/list",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/skills.py",
+    "handler": "export_skills",
+    "decorator": "get",
+    "path": "/export",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/skills.py",
+    "handler": "create_new_skill",
+    "decorator": "post",
+    "path": "/create",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/skills.py",
+    "handler": "get_skill_by_id",
+    "decorator": "get",
+    "path": "/id/{id}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/skills.py",
+    "handler": "update_skill_by_id",
+    "decorator": "post",
+    "path": "/id/{id}/update",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/skills.py",
+    "handler": "update_skill_access_by_id",
+    "decorator": "post",
+    "path": "/id/{id}/access/update",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/skills.py",
+    "handler": "toggle_skill_by_id",
+    "decorator": "post",
+    "path": "/id/{id}/toggle",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/skills.py",
+    "handler": "delete_skill_by_id",
+    "decorator": "delete",
+    "path": "/id/{id}/delete",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/tasks.py",
+    "handler": "check_active_chats",
+    "decorator": "post",
+    "path": "/active/chats",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/tasks.py",
+    "handler": "get_task_config",
+    "decorator": "get",
+    "path": "/config",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/tasks.py",
+    "handler": "update_task_config",
+    "decorator": "post",
+    "path": "/config/update",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/tasks.py",
+    "handler": "generate_title",
+    "decorator": "post",
+    "path": "/title/completions",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/tasks.py",
+    "handler": "generate_follow_ups",
+    "decorator": "post",
+    "path": "/follow_up/completions",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/tasks.py",
+    "handler": "generate_chat_tags",
+    "decorator": "post",
+    "path": "/tags/completions",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/tasks.py",
+    "handler": "generate_image_prompt",
+    "decorator": "post",
+    "path": "/image_prompt/completions",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/tasks.py",
+    "handler": "generate_queries",
+    "decorator": "post",
+    "path": "/queries/completions",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/tasks.py",
+    "handler": "generate_autocompletion",
+    "decorator": "post",
+    "path": "/auto/completions",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/tasks.py",
+    "handler": "generate_emoji",
+    "decorator": "post",
+    "path": "/emoji/completions",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/tasks.py",
+    "handler": "generate_moa_response",
+    "decorator": "post",
+    "path": "/moa/completions",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/terminals.py",
+    "handler": "list_terminal_servers",
+    "decorator": "get",
+    "path": "/",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/terminals.py",
+    "handler": "proxy_terminal",
+    "decorator": "api_route",
+    "path": "/{server_id}/{path:path}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/tools.py",
+    "handler": "get_tools",
+    "decorator": "get",
+    "path": "/",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/tools.py",
+    "handler": "get_tool_list",
+    "decorator": "get",
+    "path": "/list",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/tools.py",
+    "handler": "load_tool_from_url",
+    "decorator": "post",
+    "path": "/load/url",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/tools.py",
+    "handler": "export_tools",
+    "decorator": "get",
+    "path": "/export",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/tools.py",
+    "handler": "create_new_tools",
+    "decorator": "post",
+    "path": "/create",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/tools.py",
+    "handler": "get_tools_by_id",
+    "decorator": "get",
+    "path": "/id/{id}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/tools.py",
+    "handler": "update_tools_by_id",
+    "decorator": "post",
+    "path": "/id/{id}/update",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/tools.py",
+    "handler": "update_tool_access_by_id",
+    "decorator": "post",
+    "path": "/id/{id}/access/update",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/tools.py",
+    "handler": "delete_tools_by_id",
+    "decorator": "delete",
+    "path": "/id/{id}/delete",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/tools.py",
+    "handler": "get_tools_valves_by_id",
+    "decorator": "get",
+    "path": "/id/{id}/valves",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/tools.py",
+    "handler": "get_tools_valves_spec_by_id",
+    "decorator": "get",
+    "path": "/id/{id}/valves/spec",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/tools.py",
+    "handler": "update_tools_valves_by_id",
+    "decorator": "post",
+    "path": "/id/{id}/valves/update",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/tools.py",
+    "handler": "get_tools_user_valves_by_id",
+    "decorator": "get",
+    "path": "/id/{id}/valves/user",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/tools.py",
+    "handler": "get_tools_user_valves_spec_by_id",
+    "decorator": "get",
+    "path": "/id/{id}/valves/user/spec",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/tools.py",
+    "handler": "update_tools_user_valves_by_id",
+    "decorator": "post",
+    "path": "/id/{id}/valves/user/update",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/users.py",
+    "handler": "get_users",
+    "decorator": "get",
+    "path": "/",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/users.py",
+    "handler": "get_all_users",
+    "decorator": "get",
+    "path": "/all",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/users.py",
+    "handler": "search_users",
+    "decorator": "get",
+    "path": "/search",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/users.py",
+    "handler": "get_user_groups",
+    "decorator": "get",
+    "path": "/groups",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/users.py",
+    "handler": "get_user_permissisions",
+    "decorator": "get",
+    "path": "/permissions",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/users.py",
+    "handler": "get_default_user_permissions",
+    "decorator": "get",
+    "path": "/default/permissions",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/users.py",
+    "handler": "update_default_user_permissions",
+    "decorator": "post",
+    "path": "/default/permissions",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/users.py",
+    "handler": "get_user_settings_by_session_user",
+    "decorator": "get",
+    "path": "/user/settings",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/users.py",
+    "handler": "update_user_settings_by_session_user",
+    "decorator": "post",
+    "path": "/user/settings/update",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/users.py",
+    "handler": "get_user_status_by_session_user",
+    "decorator": "get",
+    "path": "/user/status",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/users.py",
+    "handler": "update_user_status_by_session_user",
+    "decorator": "post",
+    "path": "/user/status/update",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/users.py",
+    "handler": "get_user_info_by_session_user",
+    "decorator": "get",
+    "path": "/user/info",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/users.py",
+    "handler": "update_user_info_by_session_user",
+    "decorator": "post",
+    "path": "/user/info/update",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/users.py",
+    "handler": "get_user_by_id",
+    "decorator": "get",
+    "path": "/{user_id}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/users.py",
+    "handler": "get_user_info_by_id",
+    "decorator": "get",
+    "path": "/{user_id}/info",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/users.py",
+    "handler": "get_user_oauth_sessions_by_id",
+    "decorator": "get",
+    "path": "/{user_id}/oauth/sessions",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/users.py",
+    "handler": "get_user_profile_image_by_id",
+    "decorator": "get",
+    "path": "/{user_id}/profile/image",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/users.py",
+    "handler": "get_user_active_status_by_id",
+    "decorator": "get",
+    "path": "/{user_id}/active",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/users.py",
+    "handler": "update_user_by_id",
+    "decorator": "post",
+    "path": "/{user_id}/update",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/users.py",
+    "handler": "delete_user_by_id",
+    "decorator": "delete",
+    "path": "/{user_id}",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/users.py",
+    "handler": "get_user_groups_by_id",
+    "decorator": "get",
+    "path": "/{user_id}/groups",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/utils.py",
+    "handler": "get_gravatar",
+    "decorator": "get",
+    "path": "/gravatar",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/utils.py",
+    "handler": "format_code",
+    "decorator": "post",
+    "path": "/code/format",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/utils.py",
+    "handler": "execute_code",
+    "decorator": "post",
+    "path": "/code/execute",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/utils.py",
+    "handler": "get_html_from_markdown",
+    "decorator": "post",
+    "path": "/markdown",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/utils.py",
+    "handler": "download_chat_as_pdf",
+    "decorator": "post",
+    "path": "/pdf",
+    "methods": null
+  },
+  {
+    "file": "open-webui/backend/open_webui/routers/utils.py",
+    "handler": "download_db",
+    "decorator": "get",
+    "path": "/db/download",
+    "methods": null
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "python_file_count": 221,
+  "directory_stats": {
+    "internal": {
+      "files": 20,
+      "lines": 1636
+    },
+    "migrations": {
+      "files": 36,
+      "lines": 3223
+    },
+    "models": {
+      "files": 22,
+      "lines": 11352
+    },
+    "retrieval": {
+      "files": 58,
+      "lines": 12530
+    },
+    "root": {
+      "files": 7,
+      "lines": 8321
+    },
+    "routers": {
+      "files": 28,
+      "lines": 24298
+    },
+    "socket": {
+      "files": 2,
+      "lines": 1190
+    },
+    "storage": {
+      "files": 1,
+      "lines": 348
+    },
+    "test": {
+      "files": 6,
+      "lines": 1605
+    },
+    "tools": {
+      "files": 2,
+      "lines": 2332
+    },
+    "utils": {
+      "files": 39,
+      "lines": 15437
+    }
+  },
+  "http_route_count": 404
+}
