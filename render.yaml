@@ -2,9 +2,10 @@ services:
   - type: web
     name: open-coreui-backend
     runtime: go
-    buildCommand: go build -o open-coreui ./cmd/openwebui
+    # Render's default Go build builds main.go at the root and outputs ./app
+    buildCommand: go build -tags netgo -ldflags '-s -w' -o app
     # Render injects PORT automatically; pass it through to the Go server
-    startCommand: sh -c 'OPEN_COREUI_GO_ADDR=:$PORT ./open-coreui'
+    startCommand: sh -c 'OPEN_COREUI_GO_ADDR=:$PORT ./app'
     healthCheckPath: /health
 
     # Persistent disk for SQLite database and uploads
