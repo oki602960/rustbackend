@@ -3,6 +3,12 @@ FROM golang:1.21-alpine AS builder
 
 WORKDIR /src
 
+# Use the public Go module proxy and skip sum-DB verification
+# (avoids "exit code 1" in restricted Docker build networks)
+ENV GOPROXY=https://proxy.golang.org,direct \
+    GONOSUMDB=* \
+    GOFLAGS=-mod=mod
+
 # Cache dependencies
 COPY go.mod go.sum ./
 RUN go mod download
