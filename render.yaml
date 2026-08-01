@@ -1,0 +1,44 @@
+services:
+  - type: web
+    name: open-coreui-backend
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    # Render injects PORT automatically; the start command passes it through
+    startCommand: sh -c 'OPEN_COREUI_GO_ADDR=:$PORT /app/open-coreui'
+    healthCheckPath: /health
+
+    # Persistent disk for SQLite database and uploads
+    disk:
+      name: data
+      mountPath: /app/data
+      sizeGB: 10
+
+    envVars:
+      # ── Required ────────────────────────────────────────────────────────────
+      - key: WEBUI_SECRET_KEY
+        generateValue: true          # Render generates a random secret on first deploy
+
+      # ── Optional: point at your Open WebUI Python backend ───────────────────
+      # - key: OPEN_COREUI_PYTHON_BASE_URL
+      #   value: https://your-open-webui-python.onrender.com
+
+      # ── Optional: use PostgreSQL instead of SQLite ───────────────────────────
+      # - key: DATABASE_URL
+      #   fromDatabase:
+      #     name: open-coreui-db
+      #     property: connectionString
+
+      # ── Optional: auth & signup ──────────────────────────────────────────────
+      # - key: ENABLE_SIGNUP
+      #   value: "true"
+      # - key: DEFAULT_USER_ROLE
+      #   value: user
+
+      # ── Data directory (matches disk mountPath) ──────────────────────────────
+      - key: DATA_DIR
+        value: /app/data
+
+# ── Optional: managed PostgreSQL (uncomment if you want Postgres) ─────────────
+# databases:
+#   - name: open-coreui-db
+#     plan: free
