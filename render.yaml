@@ -1,10 +1,10 @@
 services:
   - type: web
     name: open-coreui-backend
-    runtime: docker
-    dockerfilePath: ./Dockerfile
-    # Render injects PORT automatically; the start command passes it through
-    startCommand: sh -c 'OPEN_COREUI_GO_ADDR=:$PORT /app/open-coreui'
+    runtime: go
+    buildCommand: go build -o open-coreui ./cmd/openwebui
+    # Render injects PORT automatically; pass it through to the Go server
+    startCommand: sh -c 'OPEN_COREUI_GO_ADDR=:$PORT ./open-coreui'
     healthCheckPath: /health
 
     # Persistent disk for SQLite database and uploads
